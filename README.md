@@ -28,18 +28,18 @@ React 기반으로 제작되었으며, 로컬 스토리지를 통해 사용자�
 ## 🗂️ 프로젝트 구조
 
 src
-├─ components/
-│ ├─ ToDoItem.jsx
-│ ├─ ToDoList.jsx
-│ └─ ToDoWriteForm.jsx
-├─ context/
-│ └─ ToDoContext.jsx
-├─ util/
-│ └─ storage.js
-├─ App.jsx
-├─ App.css
-├─ index.css
-├─ main.jsx
+├── components/
+│ ├── ToDoItem.jsx
+│ ├── ToDoList.jsx
+│ └── ToDoWriteForm.jsx
+├── context/
+│ └── ToDoContext.jsx
+├── util/
+│ └── storage.js
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
 
 ---
 
