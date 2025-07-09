@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+#root {
+  max-width: 1280px;
+  padding: 2rem;
+}
+
+/* 전체 박스 스타일 */
+.todo-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 제목 스타일 */
+.todo-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* 입력창 + 버튼 정렬 */
+.todo-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* 입력창 스타일 */
+.todo-form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* 추가 버튼 스타일 */
+.todo-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #87cefa;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* 버튼 호버 스타일 */
+.todo-form button:hover {
+  background-color: #62b8f5;
+}
+
+/* 목록 제거 */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* 항목 카드 스타일 */
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* 체크박스 스타일 */
+.todo-item input[type="checkbox"] {
+  transform: scale(1.2);
+  margin-right: 10px;
+}
+
+/* 체크된 항목 스타일 */
+.todo-item.checked span {
+  text-decoration: line-through;
+  color: #aaa;
+  opacity: 0.6;
+}
+
+/* 삭제 버튼 */
+.todo-item button {
+  background-color: #e0f4ff;
+  color: #5dbafc;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* 삭제 버튼 호버 스타일 */
+.todo-item button:hover {
+  background-color: #9bdaff;
+}
